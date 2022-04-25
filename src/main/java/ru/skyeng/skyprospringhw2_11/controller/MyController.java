@@ -18,6 +18,7 @@ public class MyController {
         this.orderService = orderService;
     }
 
+    // Добавляет список Заказов
     @GetMapping("/add")
     public List<Order> add(@RequestParam(value = "id") String ids) {
         List<Order> result;

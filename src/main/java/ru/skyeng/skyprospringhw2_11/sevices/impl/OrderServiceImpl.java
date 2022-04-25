@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 @SessionScope
 public class OrderServiceImpl implements OrderService {
-    private final List<Order>  alOrders = new ArrayList<>();
+    private final List<Order> alOrders = new ArrayList<>();
 
     @Override
     public List<Order> addOrder(String ids) {
